@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>My Personal Site</title>
+  <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="nav">
+    <div class="container">
+      <ul class="menu">
+        <a href="#about"><li>who am i</li></a>
+        <a href="#my-work"><li>my work</li></a>
+        <a href="#contact-me"><li>contact me</li></a>
+      </ul>
+    </div>
+  </div>
+  <div id="content">
+    <div class="container">
+      <div id="about">
+        <div id="my-avatar"><img src="images/about_me.jpg" alt="my-avatar"></div>
+        <div id="my-info">
+          <h1>I am Kevin.</h1>
+          <h3>Interns in ALPHA Camp</h3>
+          <hr>
+          <table>
+            <tr>
+              <th>Birth</th>
+              <td>1994</td>
+            </tr>
+            <tr>
+              <th>工作經驗</th>
+              <td>1 年 WordPress 網站開發</td>
+            </tr>
+            <tr>
+              <th>開發技能</th>
+              <td>PHP, HTML, CSS, WordPress, MySQL</td>
+            </tr>
+            <tr>
+              <th>學習經歷</th>
+              <td>
+                台大 PHP + MySQL 課程, 2017<br>
+                ALPHA Camp 大航道課程, 2018
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <hr class="bar">
+      <div id="my-work">
+        <h1>This is My Work</h1>
+        <div id="my-work-gallery">
+          <div class="item">
+            <img src="http://lorempixel.com/300/300/" alt="my-work">
+            <div class="item-info">
+              <h3>我的個人網站</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://lorempixel.com/300/300/" alt="my-work">
+            <div class="item-info">
+              <h3>我的待辦事項</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://lorempixel.com/300/300/" alt="my-work">
+            <div class="item-info">
+              <h3>我的食譜網站</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://lorempixel.com/300/300/" alt="my-work">
+            <div class="item-info">
+              <h3>我的社群平台</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+          <div class="item">
+            <img src="http://lorempixel.com/300/300/" alt="my-work">
+            <div class="item-info">
+              <h3>我的電子商務</h3>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="bar">
+      <div id="contact-me">
+        <h1>contact me</h1>
+        <form action="" method="POST" class="contact-form">
+          <div class="form-row">
+            <label for="name">姓名</label>
+            <input id="name" name="name" type="text">
+          </div>
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input id="email" name="email" type="text">
+          </div>
+          <div class="form-row">
+            <label for="message">訊息</label>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          </div>
+          <div class="form-row">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
