@@ -1,0 +1,92 @@
+@media screen and (max-width: 767px) {
+  .container {
+    width: auto;
+  }
+
+  .menu-button {
+    color: #fff;
+    float: right;
+    font-size: 25px;
+    line-height: 40px;
+    padding: 10px 20px;
+    border: 0;
+    background: transparent;
+    margin: 0;
+  }
+
+  .menu-button-checkbox {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 55px;
+    height: 40px;
+    opacity: 0;
+  }
+
+  .menu-button-checkbox:checked ~ .menu {
+    display: block;
+  }
+
+  .menu {
+    display: none;
+    margin-top: 0;
+    padding-left: 0;
+    position: fixed;
+    right: 0;
+    top: 60px;
+    width: 150px;
+    height: 100%;
+    /*background: red;*/
+  }
+
+  .menu li {
+    border: 0;
+    border-radius: 0;
+  }
+
+  #content {
+    top: 0px;
+  }
+
+  #my-avatar {
+    margin-right: 0;
+  }
+
+  #my-avatar img {
+    width: 100%;
+  }
+
+  #my-info table tr {
+    height: 30px;
+  }
+
+  #my-info table th {
+    width: 80px;
+  }
+
+  .item {
+    max-width: 100%;
+  }
+
+  .item-info {
+    opacity: 1;
+    bottom: 0;
+    height: auto;
+    top: unset;
+    padding: 0;
+  }
+
+  .item-info p {
+    display: none;
+  }
+
+  form.contact-form {
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .menu-button, .menu-button-checkbox {
+    display: none;
+  }
+}

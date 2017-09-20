@@ -186,3 +186,7 @@ hr.bar {
   width: 50%;
   border-top: 2px solid #ff6600;
 }
+
+.clearfix {
+  clear: both;
+}
